@@ -1,0 +1,27 @@
+#container {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#timer {
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.btn_ {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+}
+
+#splits {
+    font-weight: bold;
+    font-size: 20px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.split_lab {
+    overflow-y: scroll;
+}

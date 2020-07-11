@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>A Javascript Stopwatch</title>
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="timer">00:00:00</div>
+        <button id="start" class="btn_" onclick="startTimer()">Start/continue</button>
+        <button id="stop" class="btn_" onclick="stopTimer()" disabled="true">Stop/pause</button>
+        <button id="split" class="btn_" onclick="split()" disabled="true">Split/lap</button>
+        <button id="reset" class="btn_" onclick="reset()" disabled="true">Reset</button>
+
+        <div id="splits">
+
+            <br class="split_lab">Splits</br>
+
+        </div>
+
+
+    </div>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="sw.js"></script>
+</body>
+
+</html>
